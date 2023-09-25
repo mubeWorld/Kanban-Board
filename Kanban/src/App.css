@@ -1,0 +1,14 @@
+.kanban-app {
+  display: flex;
+  min-height: 90vh;
+  justify-content: center;
+  gap: 20px;
+  place-items: center;
+  background-color: rgba(230, 234, 237, 0.556);
+}
+nav {
+  width: 100%;
+  height: 10vh;
+  padding: 10px;
+  background-color: rgb(61, 61, 61);
+}

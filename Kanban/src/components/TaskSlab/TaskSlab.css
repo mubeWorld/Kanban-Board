@@ -1,0 +1,30 @@
+.task-slab {
+  width: 260px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.341);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px 0.9px rgb(227, 227, 227);
+}
+.task-slab > h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.arrow {
+  margin: 5px 10px;
+  padding: 0;
+  background-color: transparent;
+  color: rgb(26, 226, 59);
+  font-weight: 900;
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+}
+.arrow:disabled {
+  cursor: not-allowed;
+  color: rgb(197, 197, 197);
+}

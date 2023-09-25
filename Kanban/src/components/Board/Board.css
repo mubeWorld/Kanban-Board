@@ -1,0 +1,15 @@
+.Board {
+  width: 282px;
+  height: 400px;
+  text-align: center;
+  overflow-y: hidden;
+  border: 1px solid rgba(178, 178, 178, 0.452);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.53);
+  padding: 10px;
+}
+.Board > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
